@@ -3,12 +3,7 @@
 let elementId = "";
 
 chrome.runtime.onInstalled.addListener(async () => {
-    const current = await chrome.storage.local.get([
-        "openaiApiKey",
-        "extraPrompt",
-        "model",
-        "maxOutputTokens"
-    ]);
+    const current = await getData();
 
     const defaults = {
         openaiApiKey: "",
@@ -161,11 +156,8 @@ chrome.contextMenus.onClicked.addListener(async (info, tab) => {
 });
 
 /* ---------------- TEXT API ---------------- */
-async function askChatGPTText(
-    apiKey,
-    text
-) {
-
+async function askChatGPTText(apiKey,text) {
+    const storageData = await getData();
     const res = await fetch(
         "https://api.openai.com/v1/responses",
         {
@@ -177,10 +169,9 @@ async function askChatGPTText(
                     "application/json"
             },
             body: JSON.stringify({
-                model:
-                    "gpt-5.4",
+                model: storageData.model,
                 input: text,
-                max_output_tokens: 500
+                max_output_tokens: storageData.maxOutputTokens
             })
         }
     );
@@ -197,12 +188,8 @@ async function askChatGPTText(
 }
 
 /* ---------------- IMAGE API ---------------- */
-async function askChatGPTImage(
-    apiKey,
-    image,
-    prompt
-) {
-
+async function askChatGPTImage(apiKey, image, prompt) {
+    const storageData = await getData();
     const res = await fetch(
         "https://api.openai.com/v1/responses",
         {
@@ -214,8 +201,7 @@ async function askChatGPTImage(
                     "application/json"
             },
             body: JSON.stringify({
-                model:
-                    "gpt-4.1-mini",
+                model: storageData.model,
                 input: [
                     {
                         role: "user",
@@ -235,7 +221,7 @@ async function askChatGPTImage(
                         ]
                     }
                 ],
-                max_output_tokens: 300
+                max_output_tokens: storageData.maxOutputTokens
             })
         }
     );
@@ -541,6 +527,15 @@ async function cropImageOnPage(
 
 function getRandom(length) {
     return Array.from({ length: length }, () => Math.floor(Math.random() * 36).toString(36)).join('');
+}
+
+async function getData() {
+    return await chrome.storage.local.get([
+        "openaiApiKey",
+        "extraPrompt",
+        "model",
+        "maxOutputTokens"
+    ]);
 }
 
 /* ---------------- UI ---------------- */

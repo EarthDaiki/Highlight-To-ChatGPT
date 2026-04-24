@@ -31,9 +31,13 @@ document.addEventListener("DOMContentLoaded", async () => {
         const apiKey = document.getElementById("apiKey").value.trim();
         const extraPrompt = document.getElementById("extraPrompt").value.trim();
         const model = document.getElementById("model").value.trim();
-        const maxOutputTokens = document.getElementById("maxOutputTokens").value.trim();
+        const maxOutputTokens = Number(document.getElementById("maxOutputTokens").value.trim());
         const status = document.getElementById("status");
-
+        
+        if (maxOutputTokens < 100) {
+            setMessage("Need to set 100 or more.");
+            return;
+        }
         await chrome.storage.local.set({
             openaiApiKey: apiKey,
             extraPrompt: extraPrompt,
@@ -80,14 +84,75 @@ async function handleContinueClick() {
     });
 
     await setModel(apiKey);
+}
 
-    document.getElementById("settingContainer").hidden = false;
-    document.getElementById("continueBtn").remove();
+function setMessage(text) {
+    const message = document.getElementById("message");
+    message.hidden = false;
+    const p = message.querySelector("p");
+    p.textContent = text;
+    p.style.color = "#ff4d4f";
+    p.style.backgroundColor = "#1e1e1e";
+    p.style.padding = "10px 14px";
+    p.style.border = "1px solid #ff4d4f";
+    p.style.borderRadius = "8px";
+    p.style.fontWeight = "600";
+    p.style.margin = "0";
 }
 
 async function setModel(apiKey) {
-    const models = await getModels(apiKey);
-    console.log(models);
+    const data = await getModels(apiKey);
+    if (!data) { return; }
+
+    document.getElementById("settingContainer").hidden = false;
+    const continueBtn = document.getElementById("continueBtn");
+    if (continueBtn) {
+        continueBtn.remove();
+    }
+
+    const models = data.data.filter(model => {
+        const id = model.id;
+
+        return (
+            (
+                // modern GPT chat models
+                id.startsWith("gpt-5") ||
+                id.startsWith("gpt-4.1") ||
+                id.startsWith("gpt-4o") ||
+
+                // reasoning models
+                id === "o1" ||
+                id === "o3" ||
+                id === "o4-mini" ||
+                id.startsWith("o1-") ||
+                id.startsWith("o3-") ||
+                id.startsWith("o4-mini-") ||
+
+                // web search capable models
+                id.includes("search-preview") ||
+                id.includes("search-api")
+            )
+
+            &&
+
+            !(
+                // exclude non-text variants
+                id.includes("audio") ||
+                id.includes("realtime") ||
+                id.includes("transcribe") ||
+                id.includes("tts") ||
+                id.includes("image")
+            )
+        );
+    });
+
+    const select = document.getElementById("model");
+    for (model of models) {
+        const option = document.createElement("option");
+        option.value = model.id;
+        option.textContent = model.id;
+        select.appendChild(option);
+    }
 }
 
 async function getModels(apiKey) {
@@ -98,5 +163,9 @@ async function getModels(apiKey) {
     });
 
     const data = await res.json();
-    return data.data.map(m => m.id);
+    if (res.status != 200) {
+        setMessage(data.error.message);
+        return;
+    }
+    return data
 }
