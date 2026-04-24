@@ -13,7 +13,6 @@ document.addEventListener("DOMContentLoaded", async () => {
     } else {
         createContinueBtn();
         handleApiKeyInput();
-
     }
 
     if (result.extraPrompt) {
