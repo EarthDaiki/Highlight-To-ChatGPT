@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Highlight → ChatGPT",
+  "version": "1.0",
+  "description": "Send highlighted text to ChatGPT and show answer at bottom",
+  "permissions": ["contextMenus", "storage", "scripting", "activeTab", "tabs"],
+  "host_permissions": [
+    "https://*/*",
+    "http://*/*",
+    "https://api.openai.com/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "options.html"
+  },
+  "options_page": "options.html"
+}

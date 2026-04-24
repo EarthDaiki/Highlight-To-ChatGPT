@@ -1,0 +1,260 @@
+1
+Early Christianity
+:
+The Patristic Period, c.100–c.700
+Christianity had its origins in Palestine – more specifically, the region of Judea, especially the city of Jerusalem – in the first century. Christianity saw itself as a continuation and development of Judaism, and initially flourished in regions with which Judaism was traditionally associated, supremely Palestine itself. However, it rapidly spread to neighboring regions, partially through the efforts of early Christian evangelists such as Paul of Tarsus. While contemporary discussions sometimes identify Christianity as a distinctly western religion, it is important to note that the key centers of early Christian thought are all found in modern‐day Africa and Asia.
+THE EARLY CENTERS OF THEOLOGICAL ACTIVITY
+By the end of the first century
+AD
+, Christianity had become established throughout the eastern Mediterranean world, and had even gained a significant presence in the city of Rome, the capital of the Roman Empire. As the church at Rome became increasingly powerful, tensions began to develop between the Christian leadership at Rome and at the great cities of the eastern Roman Empire, such as Alexandria and Antioch. By the fourth century, the Roman Empire had effectively split in two. The western Empire was now ruled from Rome, and the eastern from the great new imperial city of Constantinople. This foreshadowed the later schism between the western and eastern churches, centered on these respective seats of power.
+In the course of this expansion, a number of regions emerged as significant centers of theological debate. Three may be singled out as having especial importance, the first two of which were Greek‐speaking, and the third Latin‐speaking.
+The city of Alexandria, in modern‐day Egypt, which emerged as a center of Christian theological education. A distinctive style of theology came to be associated with this city, reflecting its long‐standing association with the Platonic tradition. The student
+will find reference to specifically Alexandrian approaches in areas such as Christology (the area of theology dealing with the identity and significance of Jesus Christ) and biblical interpretation (see pp. 135; 255–7), reflecting both the importance and the distinctiveness of the style of Christianity associated with the area.
+Map 1.1
+The Roman Empire and the church in the fourth century.
+The city of Antioch and the surrounding region of Cappadocia, in modern‐day Turkey. A strong Christian presence came to be established in this northern region of the eastern Mediterranean at an early stage. Some of Pauls missionary journeys took him into this region, and Antioch features significantly at several points in the history of the very early church, as recorded in the Acts of the Apostles. Antioch itself soon became a leading center of Christian thought. Like Alexandria, it became associated with some specific approaches to Christology and biblical interpretation. The term Antiochene is often used to designate this distinct theological style (see pp. 136; 257–8). The three Cappadocian fathers were also an important theological presence in this region in the fourth century, notable especially for their contribution to the doctrine of the Trinity.
+Western North Africa, especially the areas of modern‐day Algeria and Tunisia. In the classical period, this was the site of Carthage, a major Mediterranean city and at one time a political rival to Rome for dominance in the region. During the period when Christianity expanded in this region, it was a Roman colony. Major writers based in this region include Tertullian (c.160–c.225), Cyprian of Carthage (died 258), and Augustine of Hippo (354–430).
+Figure 1.1
+The ancient city of Carthage.
+Source:
+photo © WitR / Shutterstock.
+With the passing of time, some other cities around the Mediterranean – such as Rome, Constantinople, Milan, and Jerusalem – also became significant centers of Christian life and thought.
+AN OVERVIEW OF THE EARLY CHRISTIAN PERIOD
+The patristic period is one of the most exciting and creative periods in the history of Christian thought. The early Christian era is also of importance for theological reasons. Every mainstream Christian body – including the Catholic, Orthodox, Anglican, Lutheran, and Reformed churches – regards the patristic period as a definitive landmark in the development of Christian doctrine. Each of these churches regards itself as continuing, extending, and, where necessary, criticizing the views of the early church writers. For example, the leading seventeenth‐century Anglican writer Lancelot Andrewes (1555–1626) declared that orthodox Christianity was based upon one canon, two testaments, three creeds, four general councils, and the first five centuries of Christian history.
+The term patristic, often used to refer to the early Christian period, comes from the Latin word
+patēr
+, father, and designates both the period of the church fathers and the distinctive ideas that were developed within this period. Since there is no inclusive form of patristic, many now prefer to talk about early Christian theologians than patristic theologians. We shall continue to make use of the term patristic in this work, as it is still widely encountered in discussions of the theology of this formative period, while recognizing that many scholars now prefer to use the designation early Christian.
+The patristic period was of major importance in clarifying a number of issues. One issue that had to be sorted out at an early stage was the relationship between Christianity and Judaism. The letters of Paul in the New Testament point to the importance of this question in the first century of Christian history, as a series of doctrinal and practical issues came under consideration. Since circumcision was obligatory for Jews, should Gentile (that is, non‐Jewish) Christians be obliged to be circumcised? Did Christians have to observe Jewish food laws? And how was the Old Testament to be correctly interpreted?
+However, other issues soon came to the fore. One which was of especial importance in the second century is that of
+apologetics
+– the reasoned defense and justification of the Christian faith against its critics. During the first period of Christian history, the church was often persecuted by the Roman authorities, and Christians were forced to worship secretly, often in private homes. Apologists such as Justin Martyr (c.100–c.165) tried to explain and defend the beliefs and practices of Christianity to a hostile pagan public. Although this early period produced some outstanding theologians – such as Irenaeus of Lyons (c.130–c.200) in the west, and Origen (c.185–c.254) in the east – theological debate reached new levels once the church had ceased to be persecuted.
+These conditions became possible during the fourth century, with the conversion of Constantine, who went on to become the first Christian Roman emperor. During his period as emperor (306–37), Constantine succeeded in reconciling church and empire, with the result that the church no longer existed under a siege mentality. In 321, he decreed that Sundays should become public holidays. As a result of Constantines influence on the
+empire, constructive theological debate became a public affair. Apart from a brief period of uncertainty during the reign of Julian the Apostate (361–3), the church could now count upon the support of the state.
+Figure 1.2
+The Roman emperor Constantine (306–37).
+Source:
+Peter Willi / Bridgeman Images.
+Theology now emerged from the hidden world of secret church meetings to become a matter of public interest and concern throughout the Roman Empire. Increasingly, doctrinal debates became a matter of both political and theological importance. Constantine wished to have a united church throughout his empire, and was thus concerned that doctrinal differences should be debated and settled as a matter of priority. One of the most important outcomes of this was the convening of the Council of Nicaea (325) to resolve potentially divisive debates within the church over the best way of expressing the identity and significance of Jesus Christ.
+As a result, the later patristic period (from about 310 to 451) may be regarded as a high‐water mark in the history of Christian theology. Theologians now enjoyed the freedom to work without the threat of persecution, and were able to address a series of issues of major importance to the consolidation of the emerging theological consensus within the churches. Establishing that consensus involved extensive debate and a painful learning process, in which the church discovered that it had to come to terms with disagreements and continuing tensions. Nonetheless, a significant degree of consensus, eventually to be enshrined in the ecumenical creeds, can be discerned as evolving within this formative period.
+KEY THEOLOGIANS
+During the course of this work, we will refer regularly to a number of significant theologians from the patristic period, who continue to be engaged and seen as theological resources in the twenty‐first century. The following early Christian writers, all of whom were indigenous to what is today known as the Middle East, Turkey, or North Africa, are often singled out for special mention.
+Justin Martyr (c.100–c.165)
+Justin is perhaps the greatest of the Apologists – the Christian writers of the second century who were concerned to defend Christianity in the face of intense criticism from pagan sources. Though born in Palestine, Justin eventually settled in Rome, where he gained a reputation as a Christian teacher. In his First Apology, Justin argued that traces of Christian truth were to be found in the great pagan writers. His doctrine of the
+logos spermatikos
+(seed‐bearing word) allowed him to affirm that God had prepared the way for his final revelation in Christ through hints of its truth in classical philosophy. Justin provides us with an important early example of a theologian who attempts to find points of connection between the gospel and the outlook of its surrounding culture.
+Irenaeus of Lyons (c.130–c.200)
+Irenaeus is believed to have been born in Smyrna (in modern‐day Turkey), although he subsequently settled in Rome. He became bishop of Lyons (in modern‐day France) around 178, a position which he held until his death two decades later. Irenaeus is noted especially for his vigorous defense of Christian orthodoxy in the face of a challenge from Gnosticism (see p. 14). His most significant work,
+Adversus haereses
+(Against Heresies), represents a major defense of the Christian understanding of salvation, and especially of the role of tradition in remaining faithful to the apostolic witness in the face of non‐Christian interpretations.
+Tertullian (c.160–c.225)
+Tertullian was of Berber or Punic (two ethnic groups indigenous to North Africa) descent. Born in the North African city of Carthage, Tertullian converted to Christianity in his thirties. He is often regarded as the father of Latin theology on account of the major impact that he had upon the western church. He defended the unity of the Old and New Testaments against Marcion, who had argued that they related to different gods. In doing so, he laid the foundations for a doctrine of the Trinity. While Tertullian, like Justin, appeals to philosophical sources in his writings, he is noteworthy for his strong opposition to the heretics practice of making theology dependent upon pagan, non‐biblical sources. He was among the most forceful early exponents of the principle of the sufficiency of Scripture, denouncing those who appealed to secular philosophies (such as those of the Athenian Academy) for a true knowledge of God.
+Origen (c.185–c.254)
+Origen, who was born and spent his life in the Egyptian city of Alexandria, was one of the most significant defenders of Christianity in the third century. His theology provided an important foundation for the development of eastern Christian thought. Origens major contributions to the development of Christian theology can be seen in two general areas. In the field of biblical interpretation, Origen is noteworthy for his development of allegorical interpretation, in which he follows the example of Paul (see for example Galatians 4) and earlier Christian theologians in exhaustively seeking out the deeper Christological reality beneath the surface of Old Testament texts. In the field of Christology, Origen was significant in developing the theological framework of seeing Christ as the incarnation of the
+Logos
+, who assumes a real human body but nevertheless remains fully God. Origen also adopted with some enthusiasm the idea of
+apokatastasis
+, according to which every creature – including both humanity and Satan – will be saved.
+Cyprian of Carthage (died 258)
+Little is known of Cyprians early life. He is thought to have been of Berber descent, and went on to become a prominent lawyer and rhetorician of considerable skill. He converted to Christianity around 246, and was elected bishop of the major North African city of Carthage in 248. He was martyred in that city during the Decian persecution of 258. His major essay
+On the Unity of the Catholic Church
+stresses the importance of visible, concrete unity among Christians, and the role of the bishops in guaranteeing that unity. It is widely regarded as a landmark in the development of Christian understandings of the nature of the church.
+Athanasius (c.293–373)
+Athanasius was born in the Egyptian city of Alexandria. Although most of his works were written in Greek, some were written in the indigenous Egyptian language known as Coptic. Athanasiuss significance relates primarily to Christological issues, which became of major importance during the fourth century. Possibly while still in his twenties, Athanasius wrote the treatise
+On the Incarnation of the Word
+. This was a powerful defense of the idea of the incarnation – namely, the belief that God assumed human nature in the person of Jesus Christ. This issue proved to be of central importance in the Arian controversy (see pp. 252–5) to which Athanasius made a major contribution.
+The Cappadocian fathers
+This term is widely used in theological literature to refer to three major theologians (two brothers, and their close friend) of the Greek‐speaking church, based in the region of Cappadocia, now in modern‐day Turkey. The three Cappadocian fathers are:
+Basil the Great (c.330–79), bishop of Caesarea, and the older brother of Gregory of Nyssa;
+Gregory of Nyssa (c.335–c.395), bishop of Nyssa, and younger brother of Basil the Great;
+Gregory of Nazianzus (329–89), bishop of Sasima and later of Constantinople.
+Each of these writers is of considerable importance in their own right. However, they collectively made an immense contribution to the development of the doctrine of the Trinity during the fourth century. By emphasizing the idea of substance (
+hypostasis
+), they were able to formulate a stable and relatively coherent concept of the Godhead, consisting of one substance and three persons.
+Jerome (c. 347–420)
+Jerome (more formally, Eusebius Sophronius Hieronymus) was a leading early Christian theologian and biblical translator, who studied under Gregory of Nazianzus at Constantinople. In 382, he moved to Rome to serve as secretary to Pope Damasus I, who suggested that he should produce a new translation of the Bible in popular Latin, which became known as the Vulgate (p. 30). After the death of Damasus in 384, Jerome returned to the east, and established a monastery at Bethlehem. Jerome placed an emphasis on the idea of
+Hebraica veritas
+(Hebrew truth), which held that priority was to be given to the original Hebrew Scripture over its later translations into Greek and other languages. Jeromes Vulgate translation thus draws primarily on Hebrew texts – rather than the Greek translation known as the Septuagint.
+Augustine of Hippo (354–430)
+Aurelius Augustinus, usually known as Augustine of Hippo, is possibly the most influential theologian of the Christian church throughout its long history. Augustine was of Berber descent, and left North Africa to work in Rome. Attracted to the Christian faith by the preaching of Bishop Ambrose of Milan, Augustine underwent a dramatic conversion experience in a garden in Milan. Augustine left Italy to return to North Africa, and was made bishop of Hippo (in modern Algeria) in 395. The remaining 35 years of his life witnessed numerous controversies of major importance to the future of the Christian church in the west, and Augustines contribution to the resolution of each of these was decisive. His careful exposition of the New Testament, particularly the letters of Paul, gained him a reputation which continues today, as the second founder of the Christian faith (Jerome). During the theological renaissance of the early Middle Ages, Augustines substantial body of writings would form the basis of a major program of renewal and development, consolidating his influence over the western church.
+A major part of Augustines contribution lies in the development of theology as an academic discipline. The early church cannot really be said to have developed any systematic theology. Its primary concern was to defend Christianity against its critics (as in the apologetic works of Justin Martyr), and to clarify central aspects of its thinking against heresy (as in the anti‐Gnostic writings of Irenaeus). Nevertheless, major doctrinal development took place during the first four centuries, especially in relation to the doctrine of the person of Christ and the doctrine of the Trinity.
+Augustines contribution was to achieve a synthesis of Christian thought, supremely in his major treatise
+On the City of God
+. Like Charles Dickenss famous novel, Augustines
+City of God
+is a tale of two cities – the city of the world, and the city of God (see p. 502). However, in addition, it may be argued that Augustine made key contributions to three major areas of Christian theology: the doctrine of the church and sacraments, arising
+from the Donatist controversy (see pp. 420–2); the doctrine of grace, arising from the Pelagian controversy (see pp. 387–8); and the doctrine of the Trinity (see pp. 367–9).
+KEY THEOLOGICAL DEBATES AND DEVELOPMENTS
+As we have already noted, the early Christian period was of immense importance in shaping the contours of Christian theology. The following areas of theology were explored with particular vigor during the patristic period.
+The extent of the New Testament canon
+From its outset, Christian theology recognized itself to be grounded in Scripture. There was, however, some uncertainty as to what the term Scripture actually designated. The patristic period witnessed a process of decision‐making, in which limits were laid down to the New Testament – a process usually known as the fixing of the canon. This process drew inspiration from the way in which the earlier Hebrew Scriptures had come to be held in a fixed collection over the centuries (though, as we will see in
+Chapter 6
+, the precise boundaries of the Old Testament canon was itself a topic of discussion within the early church).
+The word canon needs explanation. It derives from the Greek word
+kanōn
+meaning a rule or a fixed reference point. The canon of Scripture refers to a limited and defined group of writings, which are accepted as authoritative within the Christian church. The term canonical is used to refer to scriptural writings accepted to be within the canon. Thus, the gospel of Luke is referred to as canonical, whereas the gospel of Thomas is described as extracanonical (that is, lying outside the canon of Scripture).
+For the writers of the New Testament, the term Scripture meant primarily a
+writing of the Old Testament
+. However, within a short period, early Christian writers (such as Justin Martyr) were referring to the New Testament (to be distinguished from the Old Testament), and insisting that both collections of works were to be treated with equal authority. By the time of Irenaeus in the late second century, there was a consensus that the four gospels, Acts, and letters had the status of inspired Scripture. Tertullian declared that the evangelical and apostolic writings were to be read alongside the law and the prophets, both of which were as authoritative within the church.
+Gradually, agreement was reached over the list of books which were recognized as inspired Scripture, and the order in which they were to be arranged. In 367, Athanasius circulated his 39th Festal Letter, which identifies the 27 canonical books of the New Testament, as we now know it. Athanasius made it clear that he was simply passing on a received tradition, not imposing his own ideas.
+Debate centered especially on a number of books. The western church had hesitations about including Hebrews as it was not specifically attributed to an apostle; the eastern church had reservations about the book of Revelation (sometimes referred to as the Apocalypse). Four of the smaller books (2 Pe, 2 and 3 Jn, and Jude) were often omitted from early lists of New Testament writings. Some writings, now outside the canon, were regarded with favor in parts of the church, although they ultimately failed to gain universal acceptance as canonical. Examples of this include the first letter of Clement (an early bishop of Rome, who wrote around 69–96
+AD
+) and the
+Didachē
+, a short early Christian
+manual on morals and church practices, probably dating from the late first or early second century. Yet despite these local variations, agreement on the canon appears to have emerged remarkably quickly within the Christian world.
+The arrangement of the material within the canon was also subject to discussion. Which books should appear first? How should the letters be arranged? And where did the Acts of the Apostles fit in? Agreement was reached at an early stage that the gospels should have the place of honor within the canon, followed by the Acts of the Apostles. The eastern church tended to place the seven catholic letters (that is, Jas, 1 and 2 Pe, 1, 2, and 3 Jn, and Jude) before the 14 Pauline letters (Hebrews being accepted as Pauline), whereas the western church placed Pauls letters immediately after Acts, and followed them with the catholic letters. Revelation ended the canon in both east and west, although its status was subject to debate for some time within the eastern church.
+What criteria were used in drawing up the canon? The basic principle appears to have been that of the
+recognition
+rather than the
+imposition
+of authority. In other words, the works in question were recognized as already possessing authority, rather than having an arbitrary authority imposed upon them. For Irenaeus, the church does not
+create
+the canon; it
+acknowledges
+,
+conserves
+, and
+receives
+canonical Scripture on the basis of the authority that is already inherent in it. Some early Christians appear to have regarded apostolic authorship as of decisive importance; others were prepared to accept books which did not appear to have apostolic credentials. However, although the precise details of how the selection was made remain unclear, it is certain that the canon was regarded as closed within the western church by the beginning of the fifth century. The issue of the canon would not be raised again until the time of the Reformation (p. 124).
+The role of tradition: The Gnostic controversies
+The early church was confronted with a major challenge from a movement known as Gnosticism. This diverse and complex movement, not dissimilar to the modern New Age phenomenon, achieved considerable influence in the late Roman Empire. The basic ideas of Gnosticism do not concern us at this point; what is of relevance here is that Gnosticism appeared very similar to Christianity at many points. For example, Gnosticism shared with Christianity a belief in the divinity of Christ, although Gnostic critics of Christianity considered that its belief in Christs real humanity was objectionable. Gnostic writers often interpreted New Testament passages in a decidedly unorthodox way in support of its own doctrines, raising important questions about the correct manner of interpretation of Scripture. For this reason, Gnosticism was viewed as a major challenge by many early Christian writers, especially Irenaeus of Lyons.
+In such a context, an appeal to tradition became of major importance. How did the first Christians interpret the Bible? The word tradition literally means that which has been handed down or over, although it can also refer to the act of handing down or over. Irenaeus insisted that the rule of faith (
+regula fidei
+) was faithfully preserved by the apostolic church, and that it had found its expression in the canonical books of Scripture. The church had faithfully proclaimed the same gospel from the time of the apostles until the
+present day. The Gnostics had no such claim to continuity with the early church. They had merely invented new ideas, and were improperly suggesting that these were Christian.
+Irenaeus thus emphasized the continuity of the teaching and preaching office of the church and its officials (especially its bishops). Tradition came to mean a traditional interpretation of Scripture or a traditional presentation of the Christian faith, which is reflected in the creeds of the church and its public doctrinal pronouncements. This fixing of the creeds as a public expression of the teaching of the church is of major importance, as will become clear in the following section.
+Tertullian adopted a related approach. Scripture, he argued, is capable of being understood clearly, provided that it is read as a whole. However, he conceded that controversy over the interpretation of certain passages was inevitable. Heretics, he observed gloomily, can make Scripture say more or less anything that they like. For this reason, the tradition of the church was of considerable importance, as it indicated the manner in which Scripture had been received and interpreted within the church. The right interpretation of Scripture was thus to be found where true Christian faith and discipline had been maintained. A similar view was taken by Athanasius, who argued that Ariuss distorted account of the identity of Jesus Christ would never have arisen if he had remained faithful to the churchs interpretation of Scripture.
+Tradition was thus seen as a legacy from the apostles, by which the church was guided and directed toward a correct interpretation of Scripture. It was not seen as a secret source of revelation in addition to Scripture. Rather, it was seen as a means of ensuring that the church remained faithful to the historic teaching of the apostles, instead of adopting idiosyncratic interpretations of Scripture. This apostolic tradition, however, was not understood as being limited to
+ideas
+; it also included certain
+practices
+, including the worship of Christ – a point that was particularly important in the early Christian discussion of the identity of Christ.
+The fixing of the ecumenical creeds
+The English word creed derives from the Latin word
+credo
+, I believe, with which the Apostles creed – probably the most familiar of all the creeds – begins: I believe in God. The word creed has come to refer to a statement of faith, summarizing the main points of Christian belief, common to all Christians. For this reason, the term creed is never applied to statements of faith associated with specific Protestant denominations. These latter are generally referred to as confessions (such as the Lutheran
+Augsburg Confession
+or the Reformed
+Westminster Confession of Faith
+). A confession pertains to a denomination, and includes specific beliefs and emphases relating to that denomination; a creed pertains to the entire Christian church, and includes nothing more and nothing less than a statement of beliefs which every Christian ought to be able to accept and be bound by. A creed has come to be recognized as a concise, formal, and universally accepted and authorized statement of the main points of Christian faith.
+The patristic period saw two creeds – known as the Apostles creed and the Nicene creed – winning increasing authority and respect throughout the church. The stimulus to their development appears to have been the growing need to provide a convenient summary of Christian faith suitable for important religious occasions, especially baptism.
+The early church often baptized its converts on Easter Day, using the period of Lent as a time of preparation and instruction for this moment of public declaration of faith and commitment. Each convert who wished to be baptized was required to declare his or her faith in public. Creeds began to be used as a uniform declaration of faith which converts could use on such occasions.
+The
+Apostles creed
+is probably the most familiar form of the creed known to western Christians. It falls into three main sections, dealing with God, Jesus Christ, and the Holy Spirit. There is also material relating to the church, judgment, and resurrection. The historical evolution of this creed can be traced back to the declarations of faith that were required of those who wanted to be baptized. Both Irenaeus and Tertullian set out recognizable forms of this creed. The 12 individual statements of this creed, which seems to have assumed its final form in the eighth century, are traditionally ascribed to individual apostles, although there is no historical justification for this belief. There are slight differences between the eastern and western versions of this creed. The statements concerning Christs descent into hell and the communion of saints (printed below within square brackets) are not found in eastern versions of the work.
+THE APOSTLES CREED
+I believe in God, the Father almighty, creator of the heavens and earth;
+and in Jesus Christ, his only Son, our Lord;
+who was conceived by the Holy Spirit and born of the Virgin Mary;
+he suffered under Pontius Pilate, was crucified, dead and buried; [he descended to hell;]
+on the third day he was raised from the dead;
+he ascended into the heavens, and sits at the right hand of God the Father almighty;
+from where he will come to judge the living and the dead.
+I believe in the Holy Spirit;
+in the holy catholic church; [the communion of saints;]
+the forgiveness of sins;
+the resurrection of the flesh;
+and eternal life.
+The
+Nicene creed
+is a longer version of the creed which includes additional material relating to the person of Christ and the work of the Holy Spirit, incorporating ideas such as Christ as light from light, which draws on imagery from earlier writers like Justin Martyr (who likens the relation between Christ and the Father to fire taken from fire). In response to the controversies concerning the divinity of Christ, this creed includes strong affirmations of Christs unity with God, including the expressions God from God and of one substance with the Father. This Creed was developed with the Arian controversy over the divinity of Christ (see 000‐00) in mind. As part of its polemic against the Arians, the Council of Nicea (June 325) formulated a short statement of faith, based on a baptismal creed used at Jerusalem. This was developed further at the First Council of Constantinople (381), and became known as the Niceno‐Constantinopolitan Creed. Not surprisingly, this clumsy name was soon abbreviated to the Nicene Creed.
+The Nicene creed was intended to affirm the full divinity of Christ against the Arian understanding of his creaturely status, and includes four explicit condemnations of Arian views, as well as its three articles of faith. As the full details of the proceedings of Nicea are
+now lost, we are obliged to rely on secondary sources (such as ecclesiastical historians, and writers such as Athanasius and Basil of Caesarea) for the text of this creed.
+Figure 1.3
+The Council of Nicea, as depicted by Cesare Nebbia (1560).
+Source:
+The Picture Art Collection / Alamy Stock Photo.
+THE NICENE CREED
+We believe in one God, the Father, the almighty, the maker of all things seen and unseen. And in one Lord Jesus Christ, the Son of God; begotten from the Father; only‐begotten – that is, from the substance of the Father; God from God; light from light; true God from true God; begotten not made; of one substance with the Father; through whom all things in heaven and on earth came into being; who on account of us human beings and our salvation came down and took flesh, becoming a human being; he suffered and rose again on the third day, ascended into the heavens; and will come again to judge the living and the dead. And in the Holy Spirit.
+As for those who say that there was when he was not, and before being born he was not, and he came into existence out of nothing, or who declare that the Son of God is of a different substance or nature, or is subject to alteration or change – the catholic and apostolic church condemns these.
+The development of the creeds was an important element in the move toward achieving a doctrinal consensus within the early church. One area of doctrine that witnessed considerable development and controversy related to the person of Christ, to which we now turn.
+The two natures of Jesus Christ: The Arian controversy
+The two doctrines to which the patristic period may be argued to have made a decisive contribution relate to the person of Christ (an area of theology which, as we noted, is generally designated Christology) and the identity and nature of the Christian God. These two developments are organically related to one another. The Christological debates of the early church took place largely in the eastern Mediterranean world, and were conducted in the Greek language, often in the light of the presuppositions of major Greek schools of philosophy.
+By 325, the early church had come to the conclusion that the significance of Christ was best understood as being of one substance (
+homoousios
+) with God. (Note that the Greek term
+homoousios
+can also be translated as one in being or consubstantial.) This Christological statement can be seen as consolidating at the intellectual level the churchs understanding of the spiritual importance of Jesus Christ to Christians. The main features of early Christian Christology will be considered in some detail on pp. 248–60, to which the reader is referred. At this early stage, however, we may summarize the main landmarks of the patristic Christological debate in terms of two schools, two debates, and two general councils, as follows.
+Schools
+The
+Alexandrian school
+tended to emphasize the divinity of Christ, and interpret that divinity in terms of the word becoming incarnate. A scriptural text which was of central importance to this school is John 1: 14, the word became flesh, and dwelt among us. This emphasis upon the idea of incarnation led to the festival of Christmas being seen as especially important. The
+Antiochene school
+, however, placed a corresponding emphasis on the humanity of Christ, and attached especial importance to his moral example (see pp. 255–8). Recent scholarship has noted that these two schools shared many common ideas and approaches, despite their different emphases.
+Debates
+The
+Arian
+controversy of the fourth century is widely regarded as one of the most significant in the history of the Christian church. Arius (c.250–c.336) argued that those scriptural titles for Christ that appeared to point to his being of equal status with God were merely courtesy titles. Christ was to be regarded as a creature, although nevertheless as pre‐eminent among other creatures.
+This provoked a hostile response from Athanasius, who argued that the divinity of Christ was central to the Christian understanding of salvation (an area of theology known as soteriology). Ariuss Christology was, he declared, inadequate and incoherent soteriologically. Ariuss Christ could not redeem fallen humanity. In the end, Arianism (the movement associated with Arius) was declared to be heretical.
+This led into the
+Apollinarian
+debate, which centered on Apollinarius of Laodicea (c.310–c.390). This debate focused on the question of whether Christ was fully or partly human. A vigorous opponent of Arius, Apollinarius argued that Christ could not be regarded as being totally human. In Christs case, the human spirit was replaced by the divine
+logos
+. As a result, Christ did not possess full humanity. This position was regarded as severely deficient by writers such as Gregory of Nazianzus as it implied that Christ could not fully redeem human nature (see pp. 255–60).
+General Councils
+The
+Council of Nicea
+(325) was convened by Constantine, the first Christian emperor, with a view to sorting out the destabilizing Christological disagreements within his empire. Constantine realized that the unity of the church was essential to the stability of the empire, and wanted to establish peace within the church over the issue of the identity of Christ. He summoned a gathering of Christian leaders from all over the empire at Nicea (now the city of Iznik in modern‐day Turkey). The Greek word
+synodos
+(a gathering together) is often used to refer to these councils.
+Nicea was the first postbiblical ecumenical council (that is, a general assembly of bishops drawn from the entire Christian world, whose decisions are still regarded as normative for the churches). These councils played an important role in clarifying and stabilizing doctrines in the first five centuries of Christian thought.
+Nicea settled the Arian controversy by affirming that Jesus was
+homoousios
+(one in being or of one substance) with the Father, thus rejecting the Arian position in favor of a vigorous reassertion of the divinity of Christ. The
+Council of Chalcedon
+(451), the fourth ecumenical council, confirmed the decisions of Nicea, and responded to new debates which had subsequently erupted over the humanity of Christ.
+The doctrine of the Trinity
+Once the Christological debates of the early church had been settled, the consequences of those decisions were explored. In this intensely creative and interesting period of Christian theology, the doctrine of the Trinity began to emerge in its enduring form. The basic feature of this doctrine is that there are three persons within the Godhead – Father, Son, and Holy Spirit – and that these are to be regarded as equally divine and of equal status. The coequality of Father and Son was established through the Christological debates leading up to the Council of Nicea; the divinity of the Spirit and its relation to both the Father and the Son was further expounded in the aftermath of this, especially through the writings of Athanasius and Basil of Caesarea.
+The main Trinitarian debates increasingly came to focus on the way in which the Trinity was to be understood, rather than its fundamental validity. Two quite distinct approaches gradually emerged, one associated with the eastern, and the other with the western, churches.
+The
+eastern
+position, which continues to be of major importance within the Greek and Russian Orthodox churches of today, was developed especially by a group of three writers, based in modern‐day Turkey, known collectively as the Cappadocian fathers. Basil of Caesarea, Gregory of Nazianzus, and Gregory of Nyssa began their reflections on the Trinity by considering the different ways in which the Father, Son, and Spirit are experienced. The
+western
+position, especially associated with Augustine of Hippo, began from the unity of God, and proceeded to explore the implications of the love of God for our understanding of the nature of the Godhead. These positions will be explored in greater detail at the appropriate point in this work (see pp. 366–8).
+The doctrine of the Trinity represents a rare instance of a theological issue of concern to both the eastern and western churches. Our attention now shifts to two theological debates that were specifically linked with the western church, and have both come to be particularly associated with Augustine of Hippo.
+The doctrine of the church: The Donatist controversy
+A major controversy within the western church centered on an ecclesiological issue – the question of the holiness of the church. (The term ecclesiology is widely used to designate theological discussions of the identity and function of the church.) The Donatists were a group of native North African Christians, primarily of Berber descent, who took their name from Donatus, an influential Berber bishop who resented the growing influence of the colonial Roman church in northern Africa. For reasons we shall explore in a moment, the Donatists took an increasingly hard line about church membership. They argued that the church was a body of saints, within which sinners had no place.
+The issue became of heightened importance on account of the persecution undertaken by the emperor Diocletian in 303, which persisted until the conversion of Constantine in 313. During this persecution, in which the possession of Scripture was illegal, a number of Christians handed their copies of Scripture in to the authorities. They were immediately condemned by others who had refused to cave in under such pressure. After the persecution died down, many of these
+traditores
+– a Latin word which literally means those who handed over [their Scriptures] – rejoined the church. The Donatists demanded their exclusion; they had compromised themselves.
+Augustine argued otherwise, declaring that the church must expect to remain a mixed body of saints and sinners, refusing to weed out those who had lapsed under persecution or for other reasons. The validity of the churchs ministry and preaching did not depend upon the holiness of its ministers, but upon the person of Jesus Christ. The personal unworthiness of a minister did not compromise the validity of the sacraments. This view, which rapidly became normative within the church, has had a deep impact upon Christian thinking about the nature of the church and its ministers.
+While ecclesiological issues had been debated in earlier centuries – such as the proper succession of leadership from the apostles in the late first century, the second century disputes over the universal churchs celebration of Easter, and the North African debates over rebaptism in the third century – the Donatist controversy (see pp. 420–2) would bring some questions regarding the doctrine of the church to a new and heightened prominence. Many of the issues raised by this controversy would surface again at the time of the Reformation, when ecclesiological issues would once more come to the fore (see pp. 422–8). The same may be said of the doctrine of grace, to which we now turn.
+The doctrine of grace: The Pelagian controversy
+The doctrine of grace had not been an issue of significance in the development of theology in the Greek‐speaking eastern church. However, an intense controversy broke out over this question in the second decade of the fifth century. Pelagius, a British ascetic monk based at Rome, argued forcefully for the need for human moral responsibility. Alarmed at the moral laxity of the Roman church, he insisted upon the need for constant self‐improvement, in the light of the Old Testament law and the example of Christ. Pelagianism, a composite movement drawing on the ideas of Pelagius and his circle, came to be seen as a religion of human autonomy, which held that human beings are able to take the initiative in their own salvation without divine empowerment.
+Augustine reacted forcefully against Pelagianism, insisting upon the priority of the grace of God at every stage in the Christian life, from its beginning to its end. Human beings did not, according to Augustine, possess the necessary freedom to take the initial steps toward salvation. While still in possession of a freedom of the will, this will was corrupted and tainted by sin, and biased people toward evil and away from God. Only the grace of God could counteract this bias toward sin. So forceful was Augustines defense of grace that he later became known as the doctor of grace.
+KEY NAMES, WORDS, AND PHRASES
+By the end of this chapter, you will have encountered the following terms, which will recur during the work. Ensure that you are familiar with them! Page references are provided to help you locate them quickly within the text. Terms marked with an asterisk (*) will be explored in greater detail later in this work.
+apologetics, p. 8
+*Arianism, p. 18
+canon/canonical, p. 13
+Cappadocian fathers, p. 7
+*Christological/Christology, p. 18
+creed, p. 15
+*Donatism/Donatist, p. 20
+*ecclesiology, p. 20
+ecumenical council, p. 19
+extracanonical, p. 13
+*Gnosticism, p. 14
+*incarnation, p. 11
+patristic, p. 8
+*Pelagian/Pelagianism, p. 20
+*soteriology, p. 18
+synod, p. 19
+*Trinitarian, p. 19
+Trinity, p. 19
+QUESTIONS FOR CHAPTER 1
+As this is the first chapter of this work that many students will read, two sets of questions are provided. Those in the first group are elementary; the second are pitched at the level found throughout the remainder of this book.
+SET 1 INTRODUCTORY
+Locate the following cities or regions on
+Map 1.1
+(p. 6): Alexandria, Antioch, Cappadocia, Constantinople, Hippo, Jerusalem, Rome.
+Now find the Latin/Greek dividing line on the same map. Latin was the main language west of that line, and Greek east of it. Identify the predominant language in each of the cities mentioned in question 1.
+Which language would you associate with the following writers: Athanasius, Augustine of Hippo, Origen, and Tertullian?
+The following movements were of major importance during the patristic period: Arianism, Donatism, Gnosticism, and Pelagianism. Associate the controversies centering on each of these movements with one of the following theologians: Athanasius, Augustine of Hippo,
+Irenaeus of Lyons. (Note that one of these theologians is associated with more than one controversy.)
+SET 2 STANDARD LEVEL
+What was the main issue debated during the Arian controversy? Why did Ariuss opponents regard this as being of such importance?
+Why was the introduction of fixed creeds widely regarded as a welcome development by many within the churches?
+Why was it important to reach agreement on the canon of Scripture? What practical difference would this have made to theological debate at the time?
+The English historian Thomas Carlyle once suggested that history was basically the biography of great individuals. On the basis of your reading of this chapter, who do you think was the most significant person in relation to the shaping of Christian theology over this period?
+Why do you think the Donatist controversy broke out in the western rather than the eastern church?
