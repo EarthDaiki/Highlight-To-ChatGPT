@@ -12,40 +12,130 @@
 
     <h1>Highlight → ChatGPT</h1>
 
-    <section id="message" hidden>
-        <p></p>
-    </section>
+    <div class="tab-bar">
+        <button class="tab-btn active" data-tab="settingsPage">Settings</button>
+        <button class="tab-btn" data-tab="memoryPage">Memory</button>
+    </div>
 
-    <section id="apiKeyContainer">
-        <label for="apiKey">OpenAI API Key</label>
-        <input type="password" id="apiKey" placeholder="sk-...">
+    <!-- SETTINGS -->
+    <div class="page active" id="settingsPage">
 
-        <div class="small">
-            Stored locally in your browser.
-        </div>
-    </section>
+        <section id="message" hidden>
+            <p></p>
+        </section>
 
-    <section id="settingContainer" hidden>
-        <label for="extraPrompt">Additional Prompt</label>
-        <textarea id="extraPrompt" placeholder="Example: Give only the direct answer. No explanation."></textarea>
+        <section id="apiKeyContainer">
+            <div class="form-group">
+                <label for="apiKey">OpenAI API Key</label>
+                <input type="password" id="apiKey" placeholder="sk-...">
+                <div class="small">
+                    Stored locally in your browser.
+                </div>
+            </div>
+        </section>
 
-        <div class="small">
-            This text is added before selected text every time.
-        </div>
+        <section id="settingContainer" hidden>
 
-        <label for="model">Model</label>
-        <select id="model" name="model"></select>
+            <div class="form-group">
+                <label for="extraPrompt">Additional Prompt</label>
+                <textarea id="extraPrompt" placeholder="Example: Give only the direct answer. No explanation."></textarea>
+                <div class="small">
+                    This text is added before selected text every time.
+                </div>
+            </div>
 
-        <label for="maxOutputTokens">Max Output Tokens</label>
-        <input type="number" id="maxOutputTokens" placeholder="Put Max Output Tokens.">
+            <div class="form-group">
+                <label for="textModel">Text Model</label>
+                <select id="textModel"></select>
+            </div>
 
+            <div class="form-group">
+                <label for="imageModel">Image Model</label>
+                <select id="imageModel"></select>
+            </div>
+
+            <div class="form-group">
+                <label for="maxOutputTokens">Max Output Tokens</label>
+                <input type="number" id="maxOutputTokens">
+            </div>
+
+            <div class="form-group">
+                <label>Chat Mode</label>
+
+                <div class="inline-option">
+                    <input type="radio" id="chatOn" name="chatMode">
+                    <label for="chatOn">Use Chat Mode</label>
+                </div>
+
+                <div class="inline-option">
+                    <input type="radio" id="chatOff" name="chatMode">
+                    <label for="chatOff">Do Not Use Chat Mode</label>
+                </div>
+            </div>
+            <div id="advancedSettingsContainer">
+                <button id="advancedMenuBtn">
+                    Advanced Settings ▼
+                </button>
+                <div class="expanded-group" id="advancedExpandedGroup" hidden>
+                    <div id="advancedMenu">
+
+                        <div class="inline-option">
+                            <input type="checkbox" id="summaryOn">
+                            <label for="summaryOn">Summary Mode</label>
+                        </div>
+
+                        <div class="small">
+                            Turn this on to reduce token usage and lower cost.
+                            Conversation history will be summarized automatically.
+                            Some details may be lost.
+                        </div>
+
+                        <div id="summaryDetails">
+
+                            <div class="form-group">
+                                <label for="summaryCount">How Often?</label>
+                                <input type="number" id="summaryCount">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="summaryModel">Summary Model</label>
+                                <select id="summaryModel"></select>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
         <button id="saveBtn">Save Settings</button>
-
         <div id="status"></div>
-    </section>
+    </div>
+
+    <!-- MEMORY -->
+    <div class="page" id="memoryPage">
+        <section id="domainListContainer">
+            <h2>Saved Domains</h2>
+            <p class="small">
+                Chat history is organized by domain.<br>
+                You can delete saved history.
+            </p>
+
+            <section id="domainList"></section>
+        </section>
+    </div>
+
+    <!-- CONFIRM MODAL -->
+    <div id="confirmModal" hidden>
+        <div class="confirm-box">
+            <p id="confirmText"></p>
+            <div class="confirm-actions">
+                <button id="confirmYes">Yes</button>
+                <button id="confirmNo">No</button>
+            </div>
+        </div>
+    </div>
 
     <script src="options.js"></script>
 
 </body>
-
 </html>

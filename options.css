@@ -1,5 +1,39 @@
+/* common ui */
 * {
     box-sizing: border-box;
+}
+
+h1 {
+    margin: 0 0 18px 0;
+    font-size: 20px;
+}
+section,
+#domainListContainer {
+    background: #1a1a1a;
+    padding: 14px;
+    border-radius: 10px;
+    margin-top: 14px;
+    border: 1px solid #2a2a2a;
+}
+
+.tab-bar {
+    display: flex;
+    margin-bottom: 12px;
+}
+
+.tab-btn {
+    flex: 1;
+    padding: 10px;
+    background-color: #1a1a1a;
+    border: none;
+    color: #aaa;
+    cursor: pointer;
+}
+
+.tab-btn.active {
+    background: #2a2a2a;
+    color: #fff;
+    font-weight: bold;
 }
 
 body {
@@ -12,31 +46,106 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-h1 {
-    margin: 0 0 18px 0;
-    font-size: 20px;
+#confirmModal {
+    position: fixed;
+    inset: 0;
+
+    display: none;
+    justify-content: center;
+    align-items: center;
+
+    z-index: 9999;
+
+    background: rgba(0, 0, 0, 0.5); /* ← 背景暗くする */
+}
+
+#confirmModal.active {
+    display: flex;
+}
+
+.confirm-box {
+    background: #1a1a1a;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #2a2a2a;
+    width: 280px;
+}
+
+.confirm-actions {
+    display: flex;
+    gap: 10px;
+    margin-top: 12px;
+}
+
+.confirm-actions button {
+    flex: 1;
+    cursor: pointer;
+}
+
+
+/* settings */
+#message p {
+    color: #ff4d4f;
+    background-color: #1e1e1e;
+    border-color: #ff4d4f;
+    border-radius: 8px;
+    font-weight: 600;
+}
+
+.form-group {
+    margin-top: 12px;
+}
+
+.form-group:first-child {
+    margin-top: 0;
 }
 
 label {
-    display: block;
-    margin-top: 16px;
-    margin-bottom: 6px;
     font-size: 13px;
     font-weight: bold;
     color: #ddd;
 }
 
-input,
+label:not([for="chatOn"]):not([for="chatOff"]):not([for="summaryOn"]) {
+    display: block;
+}
+
+.inline-option input[type="radio"],
+.inline-option input[type="checkbox"] {
+    margin: 0;
+}
+
+.inline-option label {
+    margin: 0;
+    display: inline;
+}
+
+.inline-option {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    gap: 6px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+input:not([type="radio"]):not([type="checkbox"]),
 textarea,
-select {
+select,
+button {
     width: 100%;
     padding: 10px;
-    border: none;
     border-radius: 8px;
-    background: #222;
+    background: #2a2a2a;
+    border: 1px solid #3a3a3a;
     color: #fff;
     font-size: 14px;
     outline: none;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    width: auto;
 }
 
 input:focus,
@@ -67,7 +176,7 @@ option {
     color: #fff;
 }
 
-button {
+#saveBtn{
     width: 100%;
     margin-top: 18px;
     padding: 12px;
@@ -78,6 +187,31 @@ button {
     font-size: 14px;
     font-weight: bold;
     cursor: pointer;
+}
+
+#advancedMenuBtn {
+    width: 100%;
+    border-radius: 8px;
+    font-weight: 600;
+    text-align: center;
+    cursor: pointer;
+}
+#advancedMenuBtn.active {
+    border-bottom: none;
+    border-radius: 8px 8px 0px 0px;
+}
+
+.expanded-group {
+    padding: 14px;
+    border: 1px solid #2a2a2a;
+    background-color: #1a1a1a;
+}
+
+.expanded-group.active {
+    padding: 14px;
+    border-top: none;
+    background-color: #1a1a1a;
+    border-radius: 0px 0px 8px 8px;
 }
 
 button:hover {
@@ -95,4 +229,43 @@ button:hover {
     font-size: 12px;
     color: #999;
     line-height: 1.5;
+}
+
+.page.active{
+    display: block;
+}
+.page {
+    display: none;
+}
+
+/* memory page */
+#domainList {
+    margin: 10px 0px;
+}
+.item-row {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 0px;
+    border-bottom: 1px solid #2a2a2a;
+}
+
+.item-row:last-child {
+    border-bottom: none;
+}
+
+.item-row span {
+    font-size: 12px;
+    font-weight: bold;
+    flex: 1;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.item-row button {
+    width: auto;
+    border: none;
+    flex-shrink: 0;
+    cursor: pointer;
 }

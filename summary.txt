@@ -1,0 +1,21 @@
+Summarize this Q&A history for a new chat so future answers stay consistent.
+
+Keep only reusable context.
+
+Include:
+- Recurring topics
+- Important established facts
+- User preferences (style, tone, detail)
+- Unresolved issues
+- Useful future context
+
+Exclude:
+- One-time questions
+- Small talk
+- Repetition
+- Unneeded quotes
+- Minor temporary details
+
+Use bullet points.
+Be concise.
+Max 150 words.

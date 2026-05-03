@@ -1,15 +1,21 @@
 document.addEventListener("DOMContentLoaded", async () => {
-    const result = await chrome.storage.local.get([
+    const result = await getData([
         "openaiApiKey",
         "extraPrompt",
-        "model",
+        "textModel",
+        "imageModel",
+        "summaryModel",
         "maxOutputTokens",
+        "store",
+        "summary",
+        "summaryCount",
     ]);
 
     if (result.openaiApiKey) {
         document.getElementById("apiKey").value = result.openaiApiKey;
         document.getElementById("settingContainer").hidden = false;
         await setModel(result.openaiApiKey);
+        handleAdvancedMenuBtn();
     } else {
         createContinueBtn();
         handleApiKeyInput();
@@ -19,19 +25,59 @@ document.addEventListener("DOMContentLoaded", async () => {
         document.getElementById("extraPrompt").value = result.extraPrompt;
     }
 
-    if (result.model) {
-        document.getElementById("model").value = result.model;
+    if (result.textModel) {
+        document.getElementById("textModel").value = result.textModel;
     }
+    if (result.imageModel) {
+        document.getElementById("imageModel").value = result.imageModel;
+    }
+    if (result.summaryModel) {
+        document.getElementById("summaryModel").value = result.summaryModel;
+    } 
 
     if (result.maxOutputTokens) {
         document.getElementById("maxOutputTokens").value = result.maxOutputTokens;
     }
 
+    if (result.store) {
+        document.getElementById("chatOn").checked = true;
+        const advancedSettingsContainer = document.getElementById("advancedSettingsContainer");
+        advancedSettingsContainer.hidden = false;
+    } else {   
+        document.getElementById("chatOff").checked = true;    
+        const advancedSettingsContainer = document.getElementById("advancedSettingsContainer");
+        advancedSettingsContainer.hidden = true;
+    }
+
+    if (result.summary) {
+        document.getElementById("summaryOn").checked = true;
+    }
+
+    if (result.summaryCount) {
+        document.getElementById("summaryCount").value = result.summaryCount;
+    }
+
+    // Run after checking whether "summaryOn" is enabled
+    handleSummaryBtn();
+    handleChatModeRadio();
+    await handlePage();
+
     document.getElementById("saveBtn").addEventListener("click", async () => {
         const apiKey = document.getElementById("apiKey").value.trim();
         const extraPrompt = document.getElementById("extraPrompt").value.trim();
-        const model = document.getElementById("model").value.trim();
+        const textModel = document.getElementById("textModel").value.trim();
+        const imageModel = document.getElementById("imageModel").value.trim();
+        const summaryModel = document.getElementById("summaryModel").value.trim();
+        const summaryCount = Number(document.getElementById("summaryCount").value.trim());
         const maxOutputTokens = Number(document.getElementById("maxOutputTokens").value.trim());
+        let store = false;
+        if (document.getElementById("chatOn").checked) {
+            store = true;
+        }
+        let summary = false;
+        if (document.getElementById("summaryOn").checked) {
+            summary = true;
+        }
         const status = document.getElementById("status");
         
         if (maxOutputTokens < 100) {
@@ -41,8 +87,13 @@ document.addEventListener("DOMContentLoaded", async () => {
         await chrome.storage.local.set({
             openaiApiKey: apiKey,
             extraPrompt: extraPrompt,
-            model: model,
+            textModel: textModel,
+            imageModel: imageModel,
+            summaryModel: summaryModel,
             maxOutputTokens: maxOutputTokens,
+            store: store,
+            summary: summary,
+            summaryCount: summaryCount,
         });
 
         status.textContent = "Settings saved.";
@@ -86,18 +137,134 @@ async function handleContinueClick() {
     await setModel(apiKey);
 }
 
+function handleChatModeRadio() {
+    const chatOn = document.getElementById("chatOn");
+    const chatOff = document.getElementById("chatOff");
+    const container = document.getElementById("advancedSettingsContainer");
+    chatOn.addEventListener("change", () => {
+        container.hidden = !chatOn.checked;
+    });
+    chatOff.addEventListener("change", () => {
+        container.hidden = !chatOn.checked;
+    });
+}
+
+function handleAdvancedMenuBtn() {
+    const btn = document.getElementById("advancedMenuBtn");
+    const menuContainer = document.getElementById("advancedExpandedGroup");
+    btn.addEventListener("click", () => {
+        menuContainer.hidden = !menuContainer.hidden;
+        if (menuContainer.hidden){
+            btn.textContent = "Advanced Settings ▼";
+            btn.classList.remove("active");
+            menuContainer.classList.remove("active");
+        } else {
+            btn.textContent = "Advanced Settings ▲";
+            btn.classList.add("active");
+            menuContainer.classList.add("active");
+        }
+    });
+}
+
+function handleSummaryBtn() {
+    const checkbox = document.getElementById("summaryOn");
+    const summaryDetails = document.getElementById("summaryDetails");
+    summaryDetails.hidden = !checkbox.checked;
+    checkbox.addEventListener("change", () => {
+        summaryDetails.hidden = !checkbox.checked;
+    });
+}
+
+async function handlePage() {
+    const tabs = document.querySelectorAll(".tab-btn");
+    const pages = document.querySelectorAll(".page");
+    tabs.forEach(btn => {
+        btn.addEventListener("click", async () => {
+            if (btn.classList.contains("active")) return;
+            tabs.forEach(tab => {
+                tab.classList.remove("active");
+            })
+            pages.forEach(page => {
+                page.classList.remove("active");
+            })
+            btn.classList.add("active");
+            document.getElementById(btn.dataset.tab).classList.add("active");
+
+            const activePage = document.querySelector(".page.active");
+            if (activePage.id === "memoryPage") {
+                await createDomainList();
+            }
+        });
+    });
+}
+
+function handleConfirm(message) {
+    return new Promise((resolve) => {
+
+        const modal = document.getElementById("confirmModal");
+        const text = document.getElementById("confirmText");
+
+        modal.classList.add("active");
+        text.textContent = message;
+
+        document.getElementById("confirmYes").onclick = () => {
+            modal.classList.remove("active");
+            resolve(true);
+        };
+
+        document.getElementById("confirmNo").onclick = () => {
+            modal.classList.remove("active");
+            resolve(false);
+        };
+
+    });
+}
+
+async function createDomainList() {
+    const domainList = document.getElementById("domainList");
+    // clear domainList to update it.
+    domainList.innerHTML = "";
+    const {conversations} = await getData(["conversations"]);
+    const conv = conversations || {};
+    if (Object.keys(conv).length === 0) {
+        const span = document.createElement("span");
+        const row = document.createElement("div");
+        span.textContent = "No saved domains yet.";
+        row.className = "item-row";
+        row.appendChild(span);
+        domainList.appendChild(row);
+    }
+    for (const domain of Object.keys(conv)) {
+        const span = document.createElement("span");
+        const button = document.createElement("button");
+        const row = document.createElement("div");
+        span.textContent = domain;
+        button.textContent = "🗑";
+        button.addEventListener("click", async () => {
+            if (await handleConfirm(`Do you want to delete ${domain} chat history`)) {
+                console.log(domain);
+                const {conversations} = await getData(["conversations"]);
+                const tempConv = conversations || {};
+                delete tempConv[domain];
+                await chrome.storage.local.set({
+                    conversations: tempConv
+                });
+
+                createDomainList();
+            }
+        })
+        row.className = "item-row";
+        row.appendChild(span);
+        row.appendChild(button);
+        domainList.appendChild(row);
+    }
+}
+
 function setMessage(text) {
     const message = document.getElementById("message");
     message.hidden = false;
     const p = message.querySelector("p");
     p.textContent = text;
-    p.style.color = "#ff4d4f";
-    p.style.backgroundColor = "#1e1e1e";
-    p.style.padding = "10px 14px";
-    p.style.border = "1px solid #ff4d4f";
-    p.style.borderRadius = "8px";
-    p.style.fontWeight = "600";
-    p.style.margin = "0";
 }
 
 async function setModel(apiKey) {
@@ -146,12 +313,17 @@ async function setModel(apiKey) {
         );
     });
 
-    const select = document.getElementById("model");
-    for (model of models) {
-        const option = document.createElement("option");
-        option.value = model.id;
-        option.textContent = model.id;
-        select.appendChild(option);
+    const textModelSelect = document.getElementById("textModel");
+    const imageModelSelect = document.getElementById("imageModel");
+    const summaryModelSelect = document.getElementById("summaryModel");
+    const selects = [textModelSelect, imageModelSelect, summaryModelSelect];
+    for (const select of selects) {
+        for (const model of models) {
+            const option = document.createElement("option");
+            option.value = model.id;
+            option.textContent = model.id;
+            select.appendChild(option);
+        }
     }
 }
 
@@ -168,4 +340,22 @@ async function getModels(apiKey) {
         return;
     }
     return data
+}
+
+async function getData(keys=null) {
+    if (Array.isArray(keys)) {
+        return await chrome.storage.local.get(keys);
+    }
+    return await chrome.storage.local.get([
+        "openaiApiKey",
+        "extraPrompt",
+        "textModel",
+        "imageModel",
+        "summaryModel",
+        "maxOutputTokens",
+        "store",
+        "summary",
+        "summaryCount",
+        "conversations"
+    ]);
 }
