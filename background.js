@@ -180,15 +180,13 @@ chrome.contextMenus.onClicked.addListener(async (info, tab) => {
 });
 
 function getDomain(currentUrl) {
-    console.log(currentUrl);
     const hostname = new URL(currentUrl).hostname;
-    console.log(hostname);
-    console.log(hostname.replace(/^www\./, ""));
 
     return hostname.replace(/^www\./, "");
 }
 
 function getPreviousId(domain, conversations) {
+    // console.log(`Previous ID: ${conversations?.[domain]?.id ?? null}`);
     return conversations?.[domain]?.id ?? null;
 }
 
@@ -248,16 +246,21 @@ async function loadTextFile(textFileUrl) {
 }
 
 /* ---------------- TEXT API ---------------- */
-async function askChatGPT(isText, apiKey, text, image, isSummary=false) {
+async function askChatGPT(isText, apiKey, text, image, isSummary=false, domainOverride=null) {
     const storageData = await getData();
     let domain = null;
     let previousId = null;
     if (storageData.store) {
-        const tabs = await chrome.tabs.query({
-            active: true,
-            currentWindow: true
-        });
-        domain = getDomain(tabs[0].url);
+        if (domainOverride) {
+            domain = domainOverride;
+        } else {
+            const tabs = await chrome.tabs.query({
+                active: true,
+                currentWindow: true
+            });
+            domain = getDomain(tabs[0].url);
+        }
+        // console.log("START ASKING!!!");
         previousId = getPreviousId(domain, storageData.conversations ?? {});
 
         if (storageData.conversations?.[domain]?.reset) {
@@ -298,34 +301,48 @@ async function askChatGPT(isText, apiKey, text, image, isSummary=false) {
             id: data.id,
             count: oldCount + 1
         };
-
-        console.log(storageData.conversations[domain]);
+        // console.log(`Num: ${storageData.conversations?.[domain]?.count ?? 0}`);
         
         if (storageData.summary && (storageData.conversations[domain].count >= storageData.summaryCount)) {
-            const isSummary = true;
-            const {openaiApiKey} = await getData(["openaiApiKey"]);
-            const summary = await askChatGPT(
-                true,
-                openaiApiKey,
-                await loadTextFile("summary.txt"),
-                null,
-                isSummary
-            );
-            console.log(`Summary: ${summary}`);
-            storageData.conversations[domain] = {
-                id: null,
-                count: 0,
-                reset: true,
-                summary: summary
-            };
+            summarizeInBackground(storageData, domain);
         }
 
         await chrome.storage.local.set({
             conversations: storageData.conversations
         });
     }
-    console.log("data:", data);
     return extractText(data);
+}
+
+async function summarizeInBackground(storageData, domain) {
+    try {
+        const { openaiApiKey } = await getData(["openaiApiKey"]);
+
+        const summary = await askChatGPT(
+            true,
+            openaiApiKey,
+            await loadTextFile("summary.txt"),
+            null,
+            true,
+            domain
+        );
+
+        storageData.conversations[domain] = {
+            id: null,
+            count: 0,
+            reset: true,
+            summary: summary
+        };
+
+        await chrome.storage.local.set({
+            conversations: storageData.conversations
+        });
+        // console.log(`Summary answer: ${summary}`);
+        // console.log("Summary done");
+
+    } catch (e) {
+        console.error("Summary failed:", e);
+    }
 }
 
 /* ---------------- RESPONSE ---------------- */
