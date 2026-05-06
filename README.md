@@ -117,11 +117,23 @@ The Options page includes:
 - Summary Mode
 - Summary Frequency
 
+The extension fetches available models from the OpenAI API and internally filters the list before showing it in the model dropdowns. Models that are not useful for this extension, such as image generation, audio, realtime, transcription, or text-to-speech models, are not displayed. This helps users choose only models that can be used for highlighted text requests, cropped image analysis, and summarization.
+
 All settings are stored locally in the browser using `chrome.storage.local`.
 
 ---
 
 ## How It Works
+
+### Model Selection Flow
+
+```text
+Enter OpenAI API Key
+→ Fetch available models from OpenAI API
+→ Filter out unsupported models such as image generation, audio, realtime, transcription, and text-to-speech models
+→ Show only usable models in the model dropdowns
+→ Use the selected model for text, cropped image, or summary requests
+```
 
 ### Context Menu
 
